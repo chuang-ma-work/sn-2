@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="44101050830b4a5057c75820ceaad30f" extends="x_snc_external_par_new_level_1" label="new level 2 c2" max_length="40" name="x_snc_external_c2_new_level_2_c2" type="collection">
+        <element label="node 2" max_length="40" name="node_2" type="string"/>
+        <element label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element attributes="case_sensitive=true" label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <index name="index">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index2">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>
